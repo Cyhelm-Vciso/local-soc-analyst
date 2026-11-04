@@ -1,0 +1,40 @@
+Nov  3 02:55:00 web01 sshd[2211]: Accepted publickey for deploy from 10.20.0.5 port 51022 ssh2: ED25519 SHA256:abc
+Nov  3 02:55:07 web01 sshd[3000]: Failed password for root from 203.0.113.45 port 40000 ssh2
+Nov  3 02:55:14 web01 sshd[3001]: Failed password for root from 203.0.113.45 port 40001 ssh2
+Nov  3 02:55:21 web01 sshd[3002]: Failed password for root from 203.0.113.45 port 40002 ssh2
+Nov  3 02:55:28 web01 sshd[3003]: Failed password for root from 203.0.113.45 port 40003 ssh2
+Nov  3 02:55:35 web01 sshd[3004]: Failed password for root from 203.0.113.45 port 40004 ssh2
+Nov  3 02:55:42 web01 sshd[3005]: Failed password for root from 203.0.113.45 port 40005 ssh2
+Nov  3 02:55:49 web01 sshd[3006]: Failed password for root from 203.0.113.45 port 40006 ssh2
+Nov  3 02:55:56 web01 sshd[3007]: Failed password for root from 203.0.113.45 port 40007 ssh2
+Nov  3 02:56:03 web01 sshd[3008]: Failed password for root from 203.0.113.45 port 40008 ssh2
+Nov  3 02:56:10 web01 sshd[3009]: Failed password for root from 203.0.113.45 port 40009 ssh2
+Nov  3 02:56:17 web01 sshd[3010]: Failed password for root from 203.0.113.45 port 40010 ssh2
+Nov  3 02:56:24 web01 sshd[3011]: Failed password for root from 203.0.113.45 port 40011 ssh2
+Nov  3 02:56:31 web01 sshd[3012]: Failed password for root from 203.0.113.45 port 40012 ssh2
+Nov  3 02:56:38 web01 sshd[3013]: Failed password for root from 203.0.113.45 port 40013 ssh2
+Nov  3 02:56:47 web01 sshd[3099]: Accepted password for root from 203.0.113.45 port 40099 ssh2
+Nov  3 02:58:47 web01 useradd[3120]: new user: name=sysupdate, UID=1005, GID=1005, home=/home/sysupdate, shell=/bin/bash, from=/dev/pts/1
+Nov  3 02:59:07 web01 usermod[3121]: add 'sysupdate' to group 'sudo'
+Nov  3 02:59:07 web01 usermod[3121]: add 'sysupdate' to shadow group 'sudo'
+Nov  3 02:59:38 web01 sshd[4000]: Invalid user admin from 198.51.100.23 port 52000
+Nov  3 02:59:38 web01 sshd[4000]: Failed password for invalid user admin from 198.51.100.23 port 52000 ssh2
+Nov  3 03:00:09 web01 sshd[4001]: Invalid user oracle from 198.51.100.23 port 52001
+Nov  3 03:00:09 web01 sshd[4001]: Failed password for invalid user oracle from 198.51.100.23 port 52001 ssh2
+Nov  3 03:00:40 web01 sshd[4002]: Invalid user postgres from 198.51.100.23 port 52002
+Nov  3 03:00:40 web01 sshd[4002]: Failed password for invalid user postgres from 198.51.100.23 port 52002 ssh2
+Nov  3 03:01:11 web01 sshd[4003]: Invalid user ubuntu from 198.51.100.23 port 52003
+Nov  3 03:01:11 web01 sshd[4003]: Failed password for invalid user ubuntu from 198.51.100.23 port 52003 ssh2
+Nov  3 03:01:42 web01 sshd[4004]: Invalid user test from 198.51.100.23 port 52004
+Nov  3 03:01:42 web01 sshd[4004]: Failed password for invalid user test from 198.51.100.23 port 52004 ssh2
+Nov  3 03:02:13 web01 sshd[4005]: Invalid user git from 198.51.100.23 port 52005
+Nov  3 03:02:13 web01 sshd[4005]: Failed password for invalid user git from 198.51.100.23 port 52005 ssh2
+Nov  3 03:02:44 web01 sshd[4006]: Invalid user jenkins from 198.51.100.23 port 52006
+Nov  3 03:02:44 web01 sshd[4006]: Failed password for invalid user jenkins from 198.51.100.23 port 52006 ssh2
+Nov  3 03:03:15 web01 sshd[4007]: Invalid user backup from 198.51.100.23 port 52007
+Nov  3 03:03:15 web01 sshd[4007]: Failed password for invalid user backup from 198.51.100.23 port 52007 ssh2
+Nov  3 03:06:15 web01 sudo[5000]: pam_unix(sudo:auth): authentication failure; logname=intern uid=1003 euid=0 tty=/dev/pts/2 ruser=intern rhost=  user=intern
+Nov  3 03:09:15 web01 sudo[5001]: pam_unix(sudo:auth): authentication failure; logname=intern uid=1003 euid=0 tty=/dev/pts/2 ruser=intern rhost=  user=intern
+Nov  3 03:12:15 web01 sudo[5002]: pam_unix(sudo:auth): authentication failure; logname=intern uid=1003 euid=0 tty=/dev/pts/2 ruser=intern rhost=  user=intern
+Nov  3 03:12:45 web01 sudo[5010]:   intern : user NOT in sudoers ; TTY=pts/2 ; PWD=/home/intern ; USER=root ; COMMAND=/bin/bash
+Nov  3 03:17:45 web01 sudo[5100]:    deploy : TTY=pts/0 ; PWD=/srv/app ; USER=root ; COMMAND=/usr/bin/systemctl restart app
